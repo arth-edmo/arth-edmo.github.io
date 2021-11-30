@@ -27,7 +27,7 @@ var list = [];
 function listModules(URL, AEM) {
   if (!AEM) {
     header = {
-      "Authorization": "Basic " + btoa("zeiss" + ":" + "licht")
+      "Authorization": "Basic " + btoa("" + ":" + "")
     };
   } else {
     header = {};
@@ -75,7 +75,7 @@ function listModules(URL, AEM) {
 function viewModule(URL) {
   if (!AEM) {
     header = {
-      "Authorization": "Basic " + btoa("zeiss" + ":" + "licht")
+      "Authorization": "Basic " + btoa("" + ":" + "")
     };
   } else {
     header = {};
@@ -99,7 +99,7 @@ function understandModulePage(URL, AEM, URLStem) {
   var URL = URLStem + URL
   if (!AEM) {
     header = {
-      "Authorization": "Basic " + btoa("zeiss" + ":" + "licht")
+      "Authorization": "Basic " + btoa("" + ":" + "")
     };
   } else {
     header = {};
